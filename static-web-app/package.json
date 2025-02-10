@@ -1,7 +1,8 @@
 {
-    "name": "static-web-app",
+    "name": "gps-trace-webapp",
     "version": "1.0.0",
     "scripts": {
+        "build": "echo 'No build step required'",
         "start": "http-server -p 8080 -c-1"
     },
     "devDependencies": {
