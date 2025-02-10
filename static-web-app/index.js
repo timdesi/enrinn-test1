@@ -1,5 +1,5 @@
 const subscriptionKey = '3svi8dbOvjiA2c9U8CAvejrurNAlyhh1YYR909sn8NaG7cRJdezRJQQJ99BBAC5RqLJSBCjIAAAgAZMP4YXj';
-const apiUrl = 'http://localhost:7071/api/geojson'; // Updated to match the function route
+const apiUrl = 'https://icy-sand-063eeb903.4.azurestaticapps.net/api/geojson'; // http://localhost:7071/api/geojson
 
 let map, datasource, animation;
 
