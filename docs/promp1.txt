@@ -1,0 +1,19 @@
+I’d like you to develop an Azure Function that exposes the attached dataset in GeoJSON format as a Feature Collection API. This data will later be used to animate a GPS trace in Azure Maps.
+For reference, the implementation should emulate the example provided in the Azure Maps samples repository:
+🔗 Animate a GPS Trace Example at https://github.com/Azure-Samples/AzureMapsCodeSamples/blob/main/Samples/Animations/Animate%20a%20GPS%20trace/Animate%20a%20GPS%20trace.html
+Requirements:
+Azure Function:
+Should serve the GeoJSON dataset through an API endpoint.
+Follow Azure Function best practices for scalability and security. ( free tier to avoid any costs for you) 
+Ensure logs track any AI-generated code prompts in Markdown format.
+javascript/typescript 
+Azure Maps Animation:
+The web app should animate the provided dataset on Azure Maps as a moving GPS trace.
+Use the subscription key: 3svi8dbOvjiA2c9U8CAvejrurNAlyhh1YYR909sn8NaG7cRJdezRJQQJ99BBAC5RqLJSBCjIAAAgAZMP4YXj to avoid incurring costs. ( valid until 13.02.2025 ) 
+Deployment:
+Deploy the web app as an Azure Static Web App.( free tier to avoid any costs for you) 
+(Optional, extra points) Set up Terraform & GitHub Actions for infrastructure deployment.
+Evaluation Criteria:
+Proper use of Azure Function best practices.
+Effective implementation using Azure technologies.
+Clear prompting skills if any AI-generated code is used.

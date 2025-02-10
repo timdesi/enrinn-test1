@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GPS Trace Animation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.css"
+        type="text/css" />
+    <script src="https://atlas.microsoft.com/sdk/javascript/mapcontrol/2/atlas.min.js"></script>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #myMap {
+            width: 100%;
+            height: 100%;
+        }
+
+        #error {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="error"></div>
+    <div id="myMap"></div>
+    <script src="index.js"></script>
+    <script>
+        window.onerror = function (msg, url, line) {
+            document.getElementById('error').style.display = 'block';
+            document.getElementById('error').innerHTML += `Error: ${msg}<br>Line: ${line}<br>`;
+        }
+    </script>
+</body>
+
+</html>

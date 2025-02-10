@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# Azure Functions
+local.settings.json
+bin/
+obj/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#MacOS
+.DS_Store
